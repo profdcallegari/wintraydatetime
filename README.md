@@ -1,6 +1,6 @@
 # WinTrayDateTime
 
-  Created on: 26 de set de 2020
+  Created on: 12 de fev de 2025
   Daniel Callegari
  
   Aplicativo para Windows que exibe um ícone na bandeja do sistema 
