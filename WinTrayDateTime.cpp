@@ -1,11 +1,11 @@
 /*
  * WinTrayDateTime.cpp
  *
- *  Created on: 26 de set de 2020
+ *  Created on: 12 de fev de 2025
  *  Daniel Callegari
  * 
- *  Aplicativo para Windows que exibe um ícone na bandeja do sistema 
- *  e permite copiar a data e hora atuais para a área de transferência.
+ *  Aplicativo para Windows que exibe um Ã­cone na bandeja do sistema 
+ *  e permite copiar a data e hora atuais para a Ã¡rea de transferÃªncia.
  * 
  */
 
@@ -115,7 +115,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int) {
     nid.uFlags = NIF_ICON | NIF_MESSAGE | NIF_TIP;
     nid.uCallbackMessage = WM_USER + 1;
     nid.hIcon = LoadIcon(nullptr, IDI_INFORMATION);
-    wcscpy_s(nid.szTip, L"Copia Data/Hora para a área de transferência");
+    wcscpy_s(nid.szTip, L"Copia Data/Hora para a Ã¡rea de transferÃªncia");
     if (!Shell_NotifyIcon(NIM_ADD, &nid)) {
         OutputDebugString(L"Failed to add tray icon\n");
         return 1;
